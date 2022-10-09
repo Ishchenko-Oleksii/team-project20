@@ -13,6 +13,7 @@ new Swiper('.image-slider', {
     sensitivity: 1,
   },
 });
+
 new Swiper('.reviews-slider', {
   navigation: {
     nextEl: '.swiper-button-next',
