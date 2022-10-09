@@ -1,0 +1,2 @@
+new Swiper(".image-slider",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination",clickable:!0,dynamicBullets:!0},mousewheel:{sensitivity:1}}),new Swiper(".reviews-slider",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination",clickable:!0,dynamicBullets:!0},mousewheel:{sensitivity:1}});
+//# sourceMappingURL=index.99efc828.js.map
