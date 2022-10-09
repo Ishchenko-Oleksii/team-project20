@@ -9,7 +9,6 @@
 
 .product-list__item {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -18,6 +17,8 @@
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+
 
     &::before {
         position: absolute;
@@ -38,6 +39,10 @@
         height: 132px;
         box-shadow: 0px 8px 0px var(--tintIcecream);
     }
+
+    .modal-form__checkbox:checked {
+        background-color: #96AF8C;
+    }
 }
 
 .product-list__item:nth-child(2) {
@@ -50,7 +55,13 @@
         height: 132px;
         box-shadow: 0px 8px 0px var(--tintIcecoffee);
     }
+
+    .modal-form__checkbox:checked {
+        background-color: #EFD478;
+    }
+
 }
+
 
 .product-list__item:last-child {
     border: 2px solid #D6936D;
@@ -62,14 +73,30 @@
         height: 132px;
         box-shadow: 0px 8px 0px var(--tintMilkshake);
     }
+
+    .modal-form__checkbox:checked {
+        background-color: #D6936D;
+    }
+}
+
+.product-list__item-checked {
+    width: 132px;
+    height: 100%;
 }
 
 .product-list__name {
+    display: block;
     font-family: 'Montserrat';
-    font-style: bold;
+    text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.2;
+}
+
+.modal-form__checkbox {
+    width: 132px;
+    height: 100%;
+    appearance: none;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
