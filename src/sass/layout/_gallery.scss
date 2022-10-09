@@ -1,16 +1,16 @@
+
 .gallery {
-    background-image: linear-gradient(var(--mainBG) 31%, rgba(255, 255, 255, .016) 31%);
+    padding-top: 0;
+    background-image: linear-gradient(#84a178 31%, rgba(255, 255, 255, .016) 31%);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    // background-image: linear-gradient(var(--mainBG) 31%, rgba(255, 255, 255, .016) 31%);
 }
 .gallery__img {
     width: 279px;
     height: 130px;
     border-radius: 7px;
-}
-
-
-.wrapper {
-    padding: 30px;
-    min-height: 100%;
 }
 
 .slaider__img {
@@ -39,8 +39,8 @@
     height: 85px;
     border-radius: 50%;
     margin: 0 auto 32px auto;
-    -o-object-fit: fill;
-    object-fit: fill;
+    // -o-object-fit: fill;
+    // object-fit: fill;
 }
 
 .reviews-slaider__name {
