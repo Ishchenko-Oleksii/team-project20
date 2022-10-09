@@ -7,9 +7,18 @@
         </button>
         <p class="modal-form__title buy-now-title">Buy now</p>
         <form class="modal-form">
-            <input class="modal-form__checkbox" type="checkbox" name="Ice_cream" required />
-            <input class="modal-form__checkbox" type="checkbox" name="Ice_coffee" required />
-            <input class="modal-form__checkbox" type="checkbox" name="Milkshake" required />
+            <ul class="product-list">
+                <li class="product-list__item"><input class="modal-form__checkbox" type="checkbox" name="Ice_cream"
+                        id="ice-cream" required /><label for="ice-cream" class="product-list__name">ice cream</label>
+                </li>
+                <li class="product-list__item"><input class="modal-form__checkbox" type="checkbox" name="Ice_coffee"
+                        id="ice-coffee" required /><label for="ice-coffee" class="product-list__name">ice coffee</label>
+                </li>
+                <li class="product-list__item"><input class="modal-form__checkbox" type="checkbox" name="Milkshake"
+                        id="milkshake" required /><label for="milkshake" class="product-list__name">milkshake</label>
+                </li>
+            </ul>
+
             <label for="user_name" class="modal-form__label"> <input type="text" name="User_name" id="user_name"
                     required class="modal-form__input" placeholder="Name" minlength="2"
                     pattern="['a-zA-Zа-яА-ЯіІїЇ]+" /></label>
@@ -96,14 +105,26 @@
             <li class="calories-list__item"><span class="calories-list__item--values">40,4g</span><span
                     class="calories-list__name">Carbs</span></li>
         </ul>
-        <p>Ingredients</p>
-        <ul>
-            <li>Milk<span>100ml</span></li>
-            <li>Belgian chocolate<span>20g</span></li>
-            <li>Cream<span>150 ml</span></li>
-            <li>Cocoa powder<span>30g</span></li>
-            <li>Sugar<span>40g</span></li>
-            <li>Vanilla sugar<span>10g</span></li>
+        <p class="ingredients-title">Ingredients</p>
+        <ul class="components-list">
+            <li class="components-list__item">
+                <p>Milk</p><span class="components-list__item--value">100ml</span>
+            </li>
+            <li class="components-list__item">
+                <p>Belgian chocolate</p><span class="components-list__item--value">20g</span>
+            </li>
+            <li class="components-list__item">
+                <p>Cream</p><span>150 ml</span class="components-list__item--value">
+            </li>
+            <li class="components-list__item">
+                <p>Cocoa powder</p><span class="components-list__item--value">30g</span>
+            </li>
+            <li class="components-list__item">
+                <p>Sugar</p><span class="components-list__item--value">40g</span>
+            </li>
+            <li class="components-list__item">
+                <p>Vanilla sugar</p><span class="components-list__item--value">10g</span>
+            </li>
         </ul>
         <form class="modal-form">
             <label for="user_name" class="modal-form__label"> <input type="text" name="User_name" id="user_name"

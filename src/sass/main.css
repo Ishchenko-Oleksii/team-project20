@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --whiteText: #fcfcfc;
   --blackText: rgba(19, 19, 19, 1);
@@ -322,4 +323,364 @@ ol {
 .buy-btn:visited {
   border-color: rgb(171, 171, 171);
   background-color: rgb(171, 171, 171);
+}
+
+.modal {
+  position: relative;
+  /*будет абсолют */
+  padding: 30px;
+  width: 100%;
+  background-color: var(--modalBG2);
+  border: 2px solid var(--BTN);
+  border-radius: 10px;
+}
+
+.modal__icream {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 568px;
+    padding: 32px 60px;
+  }
+  .modal__icream {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+.modal-form__title {
+  font-family: "Seymour One";
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--blackText);
+  margin-bottom: 20px;
+}
+
+.Ingradients-title {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.modal-form__input {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 16px;
+  border: 1px solid var(--mainBG);
+  border-radius: 10px;
+  padding: 8px 12px;
+  background-color: rgba(248, 210, 78, 0.1);
+  transition: border-color var(--duration) var(--cubic);
+}
+.modal-form__input::-moz-placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+.modal-form__input:-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+.modal-form__input::placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+.modal-form__input:focus, .modal-form__input:hover {
+  outline: none;
+  border-color: var(--blackText);
+  cursor: pointer;
+}
+
+.ingredients-input {
+  height: 42px;
+}
+
+.modal-form__feedback {
+  resize: none;
+  width: 100%;
+  height: 84px;
+  margin-bottom: 32px;
+  border: 1px solid var(--mainBG);
+  border-radius: 10px;
+  padding: 8px 12px;
+  background-color: rgba(248, 210, 78, 0.1);
+}
+.modal-form__feedback::-moz-placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+.modal-form__feedback:-ms-input-placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+.modal-form__feedback::placeholder {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 1.4;
+  color: var(--blackText);
+}
+
+.feedback {
+  margin-bottom: 24px;
+  height: 64px;
+}
+
+.buy-now-title {
+  margin-bottom: 84px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal-form__title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 32px;
+  }
+  .Ingradients-title {
+    margin-bottom: 24px;
+  }
+  .buy-now-title {
+    margin-bottom: 104px;
+  }
+  .modal-form__input {
+    width: 368px;
+    height: 42px;
+  }
+  .ingredients-input {
+    margin-bottom: 16px;
+  }
+  .modal-form__feedback {
+    width: 368px;
+    height: 84px;
+  }
+}
+.modal-form__picture {
+  border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picture-wrapper {
+  position: relative;
+  background-color: var(--tintIcecream);
+  width: 132px;
+  height: 138px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 5.26027px 19.726px rgba(10, 136, 23, 0.25);
+}
+
+.modal-video {
+  width: 100%;
+  height: 199px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.about-video {
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(----blackText);
+}
+
+.calories-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-bottom: 39px;
+}
+
+.calories-list__item {
+  width: 53px;
+  height: 72px;
+  border: 2px solid var(--modalGreen);
+  border-radius: 40px;
+}
+
+.calories-list__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 2.8;
+}
+
+.calories-list__item--values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--modalGreen);
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  margin-top: -2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingredients-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.components-list {
+  display: flex;
+  gap: 11px;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.components-list__item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-video {
+    width: 448px;
+    height: 205px;
+    margin-bottom: 32px;
+  }
+  .calories-list {
+    gap: 20px;
+  }
+  .about-video {
+    font-size: 16px;
+  }
+}
+.btn-close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 84px;
+  margin-bottom: 24px;
+}
+
+.product-list__item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 132px;
+  height: 136px;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-list__item::before {
+  position: absolute;
+  top: -64px;
+  left: -2px;
+  border-radius: 50%;
+}
+
+.product-list__item:first-child {
+  border: 2px solid #96AF8C;
+}
+.product-list__item:first-child::before {
+  content: "";
+  background-image: url("/src/images/buy-modal-icecrema-tel-1x-min.jpg");
+  background-repeat: no-repeat;
+  width: 132px;
+  height: 132px;
+  box-shadow: 0px 8px 0px var(--tintIcecream);
+}
+
+.product-list__item:nth-child(2) {
+  border: 2px solid #EFD478;
+}
+.product-list__item:nth-child(2)::before {
+  content: "";
+  background-image: url("/src/images/buy-modal-icecoffee-tel-1x-min.jpg");
+  width: 132px;
+  height: 132px;
+  box-shadow: 0px 8px 0px var(--tintIcecoffee);
+}
+
+.product-list__item:last-child {
+  border: 2px solid #D6936D;
+}
+.product-list__item:last-child::before {
+  content: "";
+  background-image: url("/src/images/buy-modal-milkshake-tel-1x-min.jpg");
+  width: 132px;
+  height: 132px;
+  box-shadow: 0px 8px 0px var(--tintMilkshake);
+}
+
+.product-list__name {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .product-list__item:first-child::before {
+    background-image: url("/src/images/buy-modal-icecrema-tel-2x-min.jpg");
+  }
+  .product-list__item:nth-child(2)::before {
+    background-image: url("/src/images/buy-modal-icecoffee-tel-2x-min.jpg");
+  }
+  .product-list__item:last-child::before {
+    background-image: url("/src/images/buy-modal-milkshake-tel-2x-min.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .product-list {
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .product-list__item:first-child::before {
+    background-image: url("/src/images/buy-modal-icecrema-desk-2x-min.jpg");
+  }
+  .product-list__item:nth-child(2)::before {
+    background-image: url("/src/images/buy-modal-icecoffee-desk-2x-min.jpg");
+  }
+  .product-list__item:last-child::before {
+    background-image: url("/src/images/buy-modal-milkshake-desk-2x-min.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
