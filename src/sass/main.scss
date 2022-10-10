@@ -2,6 +2,15 @@
 @import './base/visually-hidden';
 @import './base/container';
 @import './base/section';
+
 @import './components/button';
-@import './layout/advantages';
+@import './components/modal-button';
+@import './components/modal-elements';
+@import './components/modal-forms';
+@import './components/modal-windows';
+@import './components/custom-checkbox';
+
+@import './layout/header';
+@import './layout/products';
 @import './layout/gallery';
+@import './layout/advantages';
