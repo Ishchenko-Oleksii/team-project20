@@ -8,11 +8,10 @@
     text-align: center;
     
 }
-.advantages__subtitle::before{
+
+.advantages__item::before{
     content: "";
     background-color:#F8D24E;
-    background-image: url(/src/images/advantages-img1-mob-1x.png);
-    background-size: 35px 35px;
     background-repeat: no-repeat;
     background-position: center;
     width: 50px;
@@ -22,9 +21,16 @@
     margin-left:auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 40px;
-
-    
+    margin-bottom: 40px;    
+}
+.advantages__item:first-child:before {    
+    background-image: url(/src/images/advantages-img1-mob-1x.png);
+}
+.advantages__item:nth-child(2):before {
+    background-image: url(/src/images/advantages-img2-mob-1x.png);
+}
+.advantages__item:last-child:before {
+    background-image: url(/src/images/advantages-img3-mob-1x.png);
 }
 
 .advantages__subtitle {
