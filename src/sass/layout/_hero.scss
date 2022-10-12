@@ -54,6 +54,18 @@
     font-size: 8px;
     line-height: 1.25;
     color: #131313;
+    &:hover {
+      border: 2px solid #0a8817;
+      border-radius: 8px;
+    }
+    &:focus {
+      border: 2px solid #0a8817;
+      border-radius: 8px;
+      color: #fcfcfc;
+    }
+    &:disabled {
+      border: 2px solid #ababab;
+    }
   }
   &__btn-description {
     width: 82px;
@@ -71,6 +83,16 @@
 
     color: #f8d24e;
     background-color: transparent;
+
+    &:hover {
+      color: #0a8817;
+    }
+    &:focus {
+      color: #fcfcfc;
+    }
+    &:disabled {
+      color: #ababab;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -125,13 +147,14 @@
         font-size: 24px;
         line-height: 0.54;
       }
-      &__about {
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        margin-bottom: 42px;
-      }
     }
+    &__about {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      margin-bottom: 42px;
+    }
+
     &__main-img {
       min-width: 289px;
       height: 344px;
@@ -192,8 +215,7 @@
       font-family: 'Montserrat';
       font-weight: 900;
       font-size: 46px;
-      line-height: 56px;
-      /* identical to box height */
+      line-height: 1.22;
 
       text-align: right;
       letter-spacing: 0.04em;
