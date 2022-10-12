@@ -33,11 +33,6 @@
   margin-top: 72px;
 }
 
-.about-more {
-  display: flex;
-  fill: currentColor;
-}
-
 .about__dscr-firts,
 .about__dscr-second,
 .about__dscr-third {
@@ -87,7 +82,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .read-btn {
+  .about_form_button {
     margin: 0 auto;
     display: flex;
   }
@@ -96,23 +91,23 @@
   }
 }
 
-// .about_form_button {
-//   width: 152px;
-//   height: 42px;
-//   text-align: center;
-//   color: #131313;
-//   cursor: pointer;
-//   background-color: #f8d24e;
-//   border: none;
-//   border-radius: 10px;
-//   justify-content: center;
-//   align-items: center;
-//   margin-left: auto;
-//   margin-right: auto;
-//   font-size: 14px;
-//   font-weight: 600;
-//   line-height: 17px;
-// }
+.about_form_button {
+  width: 152px;
+  height: 42px;
+  text-align: center;
+  color: #131313;
+  cursor: pointer;
+  background-color: #f8d24e;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
 
 @media screen and (min-width: 768px) {
   .about_wraper {
@@ -121,7 +116,7 @@
   .about__image-wraper {
     margin-right: 32px;
   }
-  .read-btn {
+  .about_form_button {
     margin-left: 0;
   }
   .about__dscr-third {
