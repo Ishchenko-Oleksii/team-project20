@@ -3,11 +3,11 @@ new Swiper('.image-slider', {
     sensitivity: 1,
   },
   autoplay: {
-    delay: 2000,
+    delay: 3300,
     disableOnInteraction: false,
   },
-    effect: 'cube',
-    flipEffect: {
+  effect: 'cube',
+  flipEffect: {
     slideShadows: true,
     shadow: true,
     shadowOffset: 20,
