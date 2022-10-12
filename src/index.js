@@ -6,11 +6,6 @@ new Swiper('.image-slider', {
     delay: 2000,
     disableOnInteraction: false,
   },
-  // effect: 'flip',
-  // flipEffect: {
-  //   slideShadows: true,
-  //   limitRotation: true,
-  // },
     effect: 'cube',
     flipEffect: {
     slideShadows: true,
@@ -24,9 +19,9 @@ new Swiper('.reviews-slider', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
-    // dynamicBullets: true,
   },
   mousewheel: {
     sensitivity: 1,
   },
+  autoHeight: true,
 });
