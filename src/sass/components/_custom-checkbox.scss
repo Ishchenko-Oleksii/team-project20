@@ -117,7 +117,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:481px) {
     .product-list {
         flex-direction: row;
         gap: 32px;
