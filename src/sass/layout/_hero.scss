@@ -6,6 +6,7 @@
   font-family: 'Seymour One';
   font-style: normal;
   font-weight: 400;
+  background-color: var(--mainBG);
 
   &__container {
     padding-left: 16px;
@@ -38,6 +39,40 @@
     padding-bottom: 189px;
   }
 
+  &__btn-about {
+    width: 62px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f8d24e;
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #131313;
+  }
+  &__btn-description {
+    width: 82px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    border: none;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+
+    color: #f8d24e;
+    background-color: transparent;
+  }
+
   @media screen and (max-width: 767px) {
     &__container {
       width: 277px;
@@ -64,8 +99,8 @@
       min-width: 170px;
       height: 219px;
       position: absolute;
-      top: 274px;
-      right: 70px;
+      top: 207px;
+      right: 68px;
     }
   }
 
@@ -78,13 +113,14 @@
       background-repeat: no-repeat;
       background-size: 767px 67px;
       background-position: bottom;
-      padding-top: 104px;
+      padding-top: 40px;
     }
     &__title {
       font-size: 18px;
       line-height: 1.23;
       width: 181px;
-      padding-top: 40px;
+      margin-bottom: 20px;
+
       &-font {
         font-size: 24px;
         line-height: 0.54;
@@ -100,8 +136,8 @@
       min-width: 289px;
       height: 344px;
       position: absolute;
-      top: 200px;
-      right: 85px;
+      top: 41px;
+      right: 80px;
     }
     &__visual {
       display: flex;
@@ -123,52 +159,50 @@
       flex-direction: column;
       row-gap: 20px;
     }
-    &__plate-watch::after {
-      content: '';
-      width: 40px;
-      height: 0px;
-      border: 2px solid #fcfcfc;
-    }
+
     &__plate-img {
       width: 163px;
       height: 152px;
     }
-  }
-  &__cafe-list {
-    position: absolute;
-    top: 132px;
-    right: 32px;
-  }
-  &__list-item {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
-  }
+    &__icon {
+      fill: #fcfcfc;
+    }
+    &__cafe-list {
+      position: absolute;
+      top: 68px;
+      right: 32px;
+    }
+    &__list-item {
+      display: flex;
+      flex-direction: column;
+      row-gap: 4px;
+    }
 
-  &__list-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  &__list-value {
-    font-family: 'Montserrat';
-    font-size: 8px;
-    line-height: 0.8;
-    text-align: right;
-    color: var(--whiteText);
-  }
-  &__list-amount {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 46px;
-    line-height: 56px;
-    /* identical to box height */
+    &__list-item:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    &__list-value {
+      font-family: 'Montserrat';
+      font-size: 14px;
+      line-height: 0.8;
+      text-align: right;
+      color: var(--whiteText);
+    }
+    &__list-amount {
+      font-family: 'Montserrat';
+      font-weight: 900;
+      font-size: 46px;
+      line-height: 56px;
+      /* identical to box height */
 
-    text-align: right;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #131313;
-  }
-  &__buttons {
-    padding-bottom: 28px;
+      text-align: right;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #131313;
+    }
+    &__buttons {
+      padding-bottom: 28px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -180,13 +214,13 @@
       background-repeat: no-repeat;
       background-size: 1200px 384px;
       background-position: bottom;
-      padding-top: 118px;
+      padding-top: 45px;
     }
     &__title {
       font-size: 38px;
       line-height: 1.26;
-      width: 354px;
-      padding-top: 45px;
+      width: 364px;
+
       &-font {
         font-size: 38px;
         line-height: 1.26;
@@ -202,8 +236,8 @@
       min-width: 484px;
       height: 590px;
       position: absolute;
-      top: 251px;
-      right: 100px;
+      top: 35px;
+      right: 65px;
     }
     &__visual {
       display: flex;
@@ -221,15 +255,10 @@
       width: 225px;
       height: 225px;
     }
-    &__plate-watch::after {
-      content: '';
-      width: 40px;
-      height: 0px;
-      border: 2px solid #fcfcfc;
-    }
+
     &__cafe-list {
       position: absolute;
-      top: 146px;
+      top: 73px;
       right: 32px;
     }
     &__list-item {
@@ -243,7 +272,7 @@
 
     &__list-value {
       font-family: 'Montserrat';
-      font-size: 8px;
+      font-size: 14px;
       line-height: 0.8;
 
       text-align: right;
@@ -265,6 +294,22 @@
     }
     &__buttons {
       padding-bottom: 42px;
+    }
+
+    &__btn-about {
+      width: 134px;
+      height: 42px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.29;
+    }
+
+    &__btn-description {
+      width: 154px;
+      height: 40px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.29;
     }
   }
 }
