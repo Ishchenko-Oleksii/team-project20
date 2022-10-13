@@ -150,10 +150,14 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
+  display: flex;
+  gap: 10px;
   align-items: center;
   text-align: center;
+  justify-content: center;
   color: black;
   cursor: pointer;
+  background-color: rgba(248, 210, 78, 1);
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
     color cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -181,10 +185,14 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
+  display: flex;
   align-items: center;
   text-align: center;
+  gap: 10px;
+  justify-content: center;
   color: black;
   cursor: pointer;
+  background-color: transparent;
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
     color cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -193,6 +201,7 @@
   }
   &:focus {
     color: rgba(252, 252, 252, 1);
+    border-color: rgba(10, 136, 23, 1);
   }
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
