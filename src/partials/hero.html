@@ -31,6 +31,25 @@
       />
       <img class="hero__main-img" src="./images/ice-mob.png" alt="photo-ice" />
     </picture>
+    <picture>
+      <source
+        srcset="./images/ice-smile-pc.png 1x"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="./images/ice-smile-tab.png 1x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./images/ice-smile-mob.png 1x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="hero__main-smile"
+        src="./images/ice-smile-mob.png"
+        alt="photo-ice"
+      />
+    </picture>
     <div class="hero__visual">
       <picture>
         <source
@@ -59,7 +78,7 @@
         <button class="hero__button-icon" type="button">
           <span class="hero__icon">
             <svg width="40" height="0">
-              <use href="./images/symbol-defs.svg#arrow-default"></use>
+              <use href="./images/symbol-defs.svg#icon-arrow-hero"></use>
             </svg>
           </span>
         </button>
