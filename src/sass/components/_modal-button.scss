@@ -7,4 +7,9 @@
     justify-content: center;
     background-color: transparent;
     border: none;
+
+    &:focus,
+    &:hover {
+        cursor: pointer;
+    }
 }

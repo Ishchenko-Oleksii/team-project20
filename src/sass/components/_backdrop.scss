@@ -10,10 +10,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 100;
     transition: visibility var(--duration) var(--cubic), opacity var(--duration) var(--cubic);
-
+    overflow: auto;
 }
 
 .active {
     opacity: 1;
     visibility: visible;
+    overflow-y: auto;
 }
