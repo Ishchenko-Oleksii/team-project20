@@ -1,6 +1,6 @@
 .overlay {
     visibility: hidden;
-    opacity: 1;
+    opacity: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +13,8 @@
     overflow: auto;
 }
 
-.active {
+.modal.active,
+.overlay.active {
     opacity: 1;
     visibility: visible;
     overflow-y: auto;
