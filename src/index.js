@@ -5,6 +5,7 @@ new Swiper('.image-slider', {
   autoplay: {
     delay: 3300,
     disableOnInteraction: false,
+
   },
   effect: 'cube',
   flipEffect: {
@@ -13,6 +14,7 @@ new Swiper('.image-slider', {
     shadowOffset: 20,
     shadowScale: 0.94,
   },
+  loop: true,
 });
 
 new Swiper('.reviews-slider', {
