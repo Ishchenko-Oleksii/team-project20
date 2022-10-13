@@ -178,6 +178,9 @@
       flex-direction: column;
       row-gap: 20px;
     }
+    &__aroow {
+      fill: var(--whiteText);
+    }
 
     &__plate-img {
       width: 163px;
