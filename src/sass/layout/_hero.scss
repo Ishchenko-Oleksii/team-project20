@@ -154,6 +154,7 @@
 
     &__main-img {
       position: absolute;
+      z-index: 0;
       top: -35px;
       right: 25px;
     }
@@ -188,10 +189,6 @@
     //   background-color: var(--mainBG);
     // }
     &__icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40px;
       fill: #fcfcfc;
     }
 
