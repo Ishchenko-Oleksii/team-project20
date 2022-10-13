@@ -264,6 +264,7 @@
     margin-right: auto;
     background-color: #f8d24e;
     width: 114px;
+    border-radius: 10px;
 
     font-size: 12px;
     line-height: 1.25;
@@ -298,6 +299,7 @@
   text-align: center;
   color: black;
   cursor: pointer;
+  background-color: #f8d24e;
 
   font-family: inherit;
   font-weight: 600;
@@ -350,6 +352,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
+  background-color: #f8d24e;
 
   // ingred-modbtn__mob
   &__mob {
