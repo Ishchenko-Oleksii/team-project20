@@ -134,7 +134,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 1.22;
-
+  z-index: 90;
   color: var(--whiteText);
 }
 
@@ -210,6 +210,7 @@
   line-height: 1.23;
   cursor: pointer;
   color: var(--whiteText);
+  z-index: 90;
 }
 
 // DESKTOP
@@ -231,6 +232,7 @@
   line-height: 1.25;
   color: var(--whiteText);
   cursor: pointer;
+  z-index: 90;
 
   &:hover,
   &:focus {
