@@ -11,8 +11,9 @@
   text-align: center;
   color: black;
   cursor: pointer;
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -39,8 +40,9 @@
   text-align: center;
   color: black;
   cursor: pointer;
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+    background-color var(--duration) var(--cubic),
+    border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -68,7 +70,9 @@
   text-decoration-line: underline;
   color: var(--BTN);
   cursor: pointer;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+    background-color var(--duration) var(--cubic),
+    border-color var(--duration) var(--cubic);
 
   &:hover {
     color: rgba(10, 136, 23, 1);
@@ -96,7 +100,9 @@
   text-decoration-line: underline;
   color: var(--BTN);
   cursor: pointer;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     color: rgba(10, 136, 23, 1);
@@ -127,8 +133,9 @@
   color: black;
   background-color: var(--BTN);
   cursor: pointer;
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+    background-color var(--duration) var(--cubic),
+    border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -163,8 +170,9 @@
   color: black;
   cursor: pointer;
   background-color: var(--BTN);
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -199,8 +207,9 @@
   color: black;
   cursor: pointer;
   background-color: transparent;
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -236,8 +245,9 @@
   color: black;
   cursor: pointer;
   background-color: var(--BTN);
-  transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
-    color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: rgba(10, 136, 23, 1);
@@ -286,8 +296,9 @@
     line-height: 1.25;
   }
 
-  transition: border-color var(--cubic), color var(--cubic),
-    background-color var(--cubic);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: var(--accentBTN);
@@ -335,8 +346,9 @@
     line-height: 1.25;
   }
 
-  transition: border-color var(--cubic), color var(--cubic),
-    background-color var(--cubic);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: var(--accentBTN);
@@ -381,8 +393,9 @@
     width: 132px;
   }
 
-  transition: border-color var(--cubic), color var(--cubic),
-    background-color var(--cubic);
+  transition: color var(--duration) var(--cubic),
+  background-color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 
   &:hover {
     border-color: var(--accentBTN);
