@@ -1,18 +1,22 @@
 .hero .hero__container {
   position: relative;
+  
 }
 
 .hero {
   font-family: 'Seymour One';
   font-style: normal;
   font-weight: 400;
+  margin-top: -1px;
   background-color: var(--mainBG);
-  margin-top: -1px
+
+  
 
   &__container {
     padding-left: 16px;
     padding-right: 16px;
     background-color: var(--mainBG);
+    margin-top: -1px;
   }
 
   &__title {
@@ -108,6 +112,8 @@
       background-size: 328px 50px;
       background-position: bottom;
       padding-top: 61px;
+      
+      
     }
     &__plate,
     &__plate-img,
