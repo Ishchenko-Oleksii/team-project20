@@ -75,4 +75,7 @@ ol {
 .link {
   text-decoration: none;
   color: inherit;
+  transition: color var(--duration) var(--cubic),
+  border-color var(--duration) var(--cubic);
 }
+
