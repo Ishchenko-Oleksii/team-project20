@@ -1,8 +1,8 @@
 .product-btn {
   width: 134px;
   height: 42px;
-  border: solid 2px rgba(248, 210, 78, 1);
-  border-radius: 4px;
+  border: solid 2px var(--BTN);
+  border-radius: 10px;
   font-family: inherit;
   font-weight: 600;
   font-size: 14px;
@@ -28,8 +28,8 @@
 .product-btn__mob {
   width: 64px;
   height: 24px;
-  border: solid 2px rgba(248, 210, 78, 1);
-  border-radius: 4px;
+  border: solid 2px var(--BTN);
+  border-radius: 8px;
   font-family: inherit;
   font-weight: 600;
   font-size: 8px;
@@ -64,7 +64,7 @@
   align-items: center;
   text-align: center;
   text-decoration-line: underline;
-  color: rgba(248, 210, 78, 1);
+  color: var(--BTN);
   cursor: pointer;
   transition: color cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -91,7 +91,7 @@
   align-items: center;
   text-align: center;
   text-decoration-line: underline;
-  color: rgba(248, 210, 78, 1);
+  color: var(--BTN);
   cursor: pointer;
   transition: color cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -114,14 +114,14 @@
   gap: 5px;
   width: 164px;
   height: 42px;
-  border: solid 2px rgba(248, 210, 78, 1);
+  border: solid 2px var(--BTN);
   border-radius: 10px;
   font-family: inherit;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
   color: black;
-  background-color: #f8d24e;
+  background-color: var(--BTN);
   cursor: pointer;
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
     color cubic-bezier(0.4, 0, 0.2, 1);
@@ -144,7 +144,7 @@
 .location-btn {
   width: 196px;
   height: 42px;
-  border: solid 2px rgba(248, 210, 78, 1);
+  border: solid 2px var(--BTN);
   border-radius: 10px;
   font-family: inherit;
   font-weight: 600;
@@ -157,7 +157,7 @@
   justify-content: center;
   color: black;
   cursor: pointer;
-  background-color: rgba(248, 210, 78, 1);
+  background-color: var(--BTN);
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
     color cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -179,7 +179,7 @@
 .franchise-btn {
   width: 196px;
   height: 42px;
-  border: solid 2px rgba(248, 210, 78, 1);
+  border: solid 2px var(--BTN);
   border-radius: 10px;
   font-family: inherit;
   font-weight: 600;
@@ -211,8 +211,7 @@
 .buy-btn {
   width: 152px;
   height: 42px;
-  background-color: #f8d24e;
-  border: solid 2px rgba(248, 210, 78, 1);
+  border: solid 2px var(--BTN);
   border-radius: 10px;
   font-family: inherit;
   font-weight: 600;
@@ -222,6 +221,7 @@
   text-align: center;
   color: black;
   cursor: pointer;
+  background-color: var(--BTN);
   transition: border-color cubic-bezier(0.4, 0, 0.2, 1),
     color cubic-bezier(0.4, 0, 0.2, 1);
 
