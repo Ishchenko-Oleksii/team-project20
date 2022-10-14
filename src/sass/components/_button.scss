@@ -22,6 +22,7 @@
   }
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -49,6 +50,7 @@
   }
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -76,6 +78,7 @@
   }
   &:disabled {
     color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -103,6 +106,7 @@
   }
   &:disabled {
     color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 // =========button use for all devices==========
@@ -138,6 +142,7 @@
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -173,6 +178,7 @@
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -205,6 +211,14 @@
   }
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
+    cursor: default;
+  }
+
+  // class used in modal button; added for disabled btn style
+  .modal-form &:disabled {
+      border-color: var(--disabledBTN);
+      background-color: var(--disabledBTN);
+      cursor: default;
   }
 }
 
@@ -236,6 +250,7 @@
   &:disabled {
     border-color: rgba(171, 171, 171, 1);
     background-color: rgba(171, 171, 171, 1);
+    cursor: default;
   }
 }
 
@@ -285,6 +300,7 @@
   &:disabled {
     border-color: var(--disabledBTN);
     background-color: var(--disabledBTN);
+    cursor: default;
   }
 }
 
@@ -333,6 +349,7 @@
   &:disabled {
     border-color: var(--disabledBTN);
     background-color: var(--disabledBTN);
+    cursor: default;
   }
 }
 
@@ -378,5 +395,6 @@
   &:disabled {
     border-color: var(--disabledBTN);
     background-color: var(--disabledBTN);
+    cursor: default;
   }
 }
