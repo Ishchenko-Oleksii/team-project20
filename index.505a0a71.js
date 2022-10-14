@@ -1,2 +1,0 @@
-$(document).on("change",(function(){$(".modal.active input").on("keyup change",(function(){var t=!1,e=!0;$(".modal.active input").each((function(){""==$(this).val().trim()?t=!0:this.checked&&(e=!1)})),0==$(".modal.active [type=checkbox]").length&&(e=!1),0==t&&0==e?$("button[type=submit]").removeAttr("disabled"):$("button[type=submit]").attr("disabled","disabled")}))}))();
-//# sourceMappingURL=index.505a0a71.js.map
