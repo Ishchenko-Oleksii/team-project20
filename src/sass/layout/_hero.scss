@@ -7,6 +7,7 @@
   font-style: normal;
   font-weight: 400;
   background-color: var(--mainBG);
+  margin-top: -1px
 
   &__container {
     padding-left: 16px;
@@ -124,6 +125,7 @@
     &__main-img {
       position: absolute;
       bottom: -53px;
+      margin-top: -1px
     }
   }
 
