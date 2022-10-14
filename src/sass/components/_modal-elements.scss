@@ -24,6 +24,7 @@
     height: 199px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 .about-video {
@@ -79,6 +80,21 @@
     text-align: center;
 }
 
+.adress-link {
+    display: block;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 134px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: var(--BTN);
+    border-radius: 10px;
+    text-align: center;
+}
+
 .components-list {
     display: flex;
     gap: 11px;
@@ -126,5 +142,11 @@
 
     .location-picture {
         margin-bottom: 32px;
+    }
+
+    .adress-link {
+        width: 145px;
+        font-size: 14px;
+
     }
 }
