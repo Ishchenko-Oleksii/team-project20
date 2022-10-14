@@ -20,9 +20,9 @@ $(document).on("change", function () {
 
       // if not empty - button enabled, else - disabled again
       if (keyEmpty == false && checkEmpty == false) {
-        $("button[type=submit]").removeAttr("disabled");
+        $(".modal.active button[type=submit]").removeAttr("disabled");
       } else {
-        $("button[type=submit]").attr("disabled", "disabled");
+        $(".modal.active button[type=submit]").attr("disabled", "disabled");
       }
     });
 })();
